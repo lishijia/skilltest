@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven | Artisan Brews & Pastries</title>
+    <meta name="description" content="Experience the finest artisan coffee and pastries in a sanctuary of warmth and flavor. Visit Coffee Haven today.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Coffee Haven.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Visit Us</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">Sip the Extraordinary</h1>
+            <p class="fade-in-up delay-1">Where artisan beans meet soulful brewing in a sanctuary of calm.</p>
+            <a href="#menu" class="btn btn-primary fade-in-up delay-2">Explore Menu</a>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container about-grid">
+            <div class="about-image reveal-on-scroll">
+                <img src="assets/pourover.png" alt="Barista pouring V60 coffee">
+                <div class="image-accent-box"></div>
+            </div>
+            <div class="about-text reveal-on-scroll delay-1">
+                <h2 class="section-title">Craftsmanship in Every Cup</h2>
+                <div class="divider"></div>
+                <p>At Coffee Haven, we believe that coffee is more than just a morning ritual—it's an art form. We source our beans ethically from small-lot farmers and roast them in-house to bring out their unique character.</p>
+                <p>Our space is designed to be your sanctuary from the hustle. Whether you're here for a quick espresso or a long afternoon with a book, we promise an experience that awakens your senses.</p>
+                <a href="#about" class="btn btn-outline">Read Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+        <div class="container">
+            <div class="section-header text-center reveal-on-scroll">
+                <h2 class="section-title">Curated Favorites</h2>
+                <p class="section-subtitle">Handpicked selections for the discerning palate</p>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-card reveal-on-scroll delay-1">
+                    <div class="card-image">
+                        <img src="assets/latte.png" alt="Signature Latte Art">
+                    </div>
+                    <div class="card-content">
+                        <h3>Velvet Latte</h3>
+                        <p class="price">$5.50</p>
+                        <p class="description">Our rich espresso blend topped with micro-foamed organic milk, finished with our signature pouring art.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card reveal-on-scroll delay-2">
+                    <div class="card-image">
+                        <img src="assets/croissant.png" alt="Artisan Croissant">
+                    </div>
+                    <div class="card-content">
+                        <h3>Almond Croissant</h3>
+                        <p class="price">$4.75</p>
+                        <p class="description">Flaky, buttery layers filled with house-made almond crafted fresh every morning.</p>
+                    </div>
+                </div>
+                
+                <div class="menu-card reveal-on-scroll delay-3">
+                    <div class="card-image">
+                        <!-- Reusing pourover image for consistency, or standard coffee -->
+                        <div class="image-placeholder" style="background-color: var(--color-primary);"></div> 
+                        <!-- Since we only have 4 images and one is hero, one is text. Let's reuse or use css gradient -->
+                        <div class="overlay-text">Seasonal Brews</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Single Origin Pour Over</h3>
+                        <p class="price">$6.00</p>
+                        <p class="description">Rotating selection of single-origin beans, hand-brewed to perfection using the V60 method.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section location-section">
+        <div class="container">
+            <div class="location-banner reveal-on-scroll">
+                <h2>Join Us Today</h2>
+                <p>123 Artisan Avenue, Design District, NY 10012</p>
+                <p>Open Daily: 7am - 8pm</p>
+                <a href="#" class="btn btn-primary">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Coffee Haven.</div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+            <p class="copyright">&copy; 2026 Coffee Haven. Built by Antigravity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
